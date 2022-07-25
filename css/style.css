@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{ 
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+   #botonera ul li a{
+
+      background-image: linear-gradient(currentColor, currentColor);
+               background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+
+
+}
+
+
+
+
+
+#botonera ul li a:hover{
+   color: black;
+   font-weight: 600;
+   background-size: 100% 2px;
+
+
+}
+
+
+
+
+h1,h2{
+   font-family: 'Roboto', sans-serif;
+}
+
+.bg-blue{
+
+   background-color: rgba(27, 85, 131, 0.5);
+
+}
+
+
+
+#botonera img{
+       width: 150px;
+}
+
+
+.ofrecemos__articulo{
+
+   font-family: 'Roboto', sans-serif;
+}
+
+
+.pie__icon--sm{
+   width: 40px;   
+}
+
+.pie{
+   padding:30px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+   margin-top: 50px;
+
+}
+
+
+
+.ofrecemos__articulo{
+   width: 80%;
+   height: auto;
+   padding-top: 20px;
+   padding-right: 40px;
+   padding-bottom: 100px;
+   padding-left: 20px;
+   margin-top: 10px;
+   margin-right: 5px;
+   margin-bottom: 20px;
+   margin-left: 5px;
+   overflow-y: auto;       
+   color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   
+}
+
+
+
+
+
+/*contacto*/
+
+.contacto__articulo{
+  
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.contacto__titulo--xl{
+   font-size: 1.5rem;
+   color: black;
+   padding: 20px 10px;
+   margin: 10px 10px;
+   
+}
+
+
+.contacto__titulo--l{
+   font-size: 1rem;
+   color: blue;
+   margin: 10px 20px;
+   font-family: 'Roboto', sans-serif;
+
+} 
+
+
+.contacto__text--md{
+   font-size: 1rem;
+   display: table;   
+   font-family: 'Roboto', sans-serif;
+
+}
+
+
+@media (min-width: 280px) and (max-width: 401px){
+       
+     .map{
+      width: 100%;
+     }       
+         
+
+
+}
+
+/*empresas*/
+
+.empresas__tiulo--xl{
+   font-size: 1.5rem;
+   font-family: 'Roboto', sans-serif;
+    margin: 10px 20px;
+    color:black;
+   }
+
+
+
+.empresas__articulo{
+  
+  
+                flex-direction: row;
+                justify-content: space-between;
+                 align-items: center;
+
+              
+
+}
+
+
+.empresas__img{
+     margin-right: 20px;
+     
+}
+
+.empresas__cuerpo{
+     background-color: white;
+}
+
+@media (min-width: 280px) and (max-width: 376px){
+
+
+   .empresas__tiulo--xl{
+      font-size: 1.1rem;
+   }  
+       
+     .empresas__img{
+      margin-right: auto;
+      width: 100%;
+     }       
+
+ }
